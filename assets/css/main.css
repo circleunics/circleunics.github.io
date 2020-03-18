@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(245,245,245);
+    margin: 0;
+}
+
+.under-construction {
+    pointer-events: none;
+    color: gray;
+}
+
+.under-construction:after {
+    content: "(工事中)";
+}
+
+.full-width {
+    width: 100%;
+}
+
+nav > menu > ul, nav > menu{
+    margin: 0;
+}
+
+nav > menu > ul > li {
+    display: inline-block;
+}
+nav > menu > ul > li > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+aside {
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+}
+
+.twitter-timeline{
+    width: 90% !important;
+}
+
+main {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    text-align: center;
+}
+
+main > article {
+    width: 90%;
+    border: black 2pt solid;
+    margin: 10px 0;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.main-container {
+    vertical-align: top;
+}
+
+footer {
+    font-size: small;
+    text-align: right;
+}
+
+nav, aside, footer {
+    background-color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
